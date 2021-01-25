@@ -754,14 +754,15 @@ Hanuman Tilla also called Hanuman Dham is believed to have been built by the gre
 <!-- 3D Gallery End --> 
 
 <!-- News Slider -->
-
-      <div class="container">
+       <section class="whois">
+      <div class="container"> 
         <div class="row">
-          <div class="col-md-12 col-sm-12">
+          <div class="col-md-12">
             <br><br>
             <div id="news-slider" class="owl-carousel">
               <div class="post-slide">
                 <ul class="post-info">
+
                   <li><i class="fa fa-newspaper-o"></i>
                     <a href="">Shamli</a>
                     <a href=""></a></li>
@@ -774,7 +775,7 @@ Hanuman Tilla also called Hanuman Dham is believed to have been built by the gre
                     <a href="">200</a>
                     </li>
 
-                </ul>
+                </ul >
 
 
                 <div class="post-img">
@@ -964,6 +965,21 @@ Hanuman Tilla also called Hanuman Dham is believed to have been built by the gre
           </div>
         </div>
       </div>
+</section>
+
+      <script> 
+  $(document).ready(function(){
+  $("#news-slider").owlCarousel({
+    items:3,
+    itemsDesktop:[1199,3],
+    itemsDesktopSmall:[1000,2],
+    itemsMobile:[600,1],
+    pagination:false,
+    navigationText:true
+  });
+  });
+
+</script>
 <!-- News Slider End -->
       
 
